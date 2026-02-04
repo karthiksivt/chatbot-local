@@ -9,6 +9,27 @@ html,body{
     width: 100%;
 }
 
+/* ===== Theme variables ===== */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --border-color: #e5e5e5;
+  --card-bg: var(--card-bg);
+  --muted-text: #555555;
+  --input-bg: #ffffff;
+}
+
+/* Dark theme overrides */
+body.dark {
+  --bg-color: #0f0f0f;
+  --text-color: #f1f1f1;
+  --border-color: #2a2a2a;
+  --card-bg: #1a1a1a;
+  --muted-text: #aaaaaa;
+  --input-bg: #151515;
+}
+
+
 /* Basic reset */
 /* ========== Base reset ========== */
 * { box-sizing: border-box; }
@@ -24,10 +45,10 @@ html,body{
 }
 
 body {
+  background: var(--bg-color);
+  color: var(--text-color);
   margin: 0;
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, Helvetica, sans-serif;
-  background: var(--bg);
-  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* ========== Layout ========== */
@@ -35,6 +56,8 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 28px 18px 34px;
+  background: var(--bg-color);
+
 }
 
 /* ========== Header ========== */
@@ -128,8 +151,8 @@ body {
 .reset-btn {
   padding: 10px 12px;
   border-radius: 12px;
-  border: 1px solid #111;
-  background: #111;
+  border: 1px solid var(--text-color);
+  background: var(--text-color);
   color: #fff;
   cursor: pointer;
   font-size: 14px;
@@ -162,6 +185,11 @@ body {
   justify-content: flex-end;
 }
 
+.chat .bubble {
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+
 .bubble {
   max-width: 78%;
   padding: 11px 12px;
@@ -190,6 +218,12 @@ body {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+input {
+  background: var(--input-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
 }
 
 #userInput {
@@ -247,16 +281,18 @@ body {
 
   /* "modern link" look (not a heavy button) */
   background: transparent;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--border-color);
   color: #111;
   text-decoration: none;
   font-size: 14px;
 
   transition: background 0.15s ease, border-color 0.15s ease, transform 0.08s ease;
+  border-color: var(--border-color);
+  color: var(--text-color);
 }
 
 .icon-link:hover{
-  background: #f3f3f3;
+  background: var(--card-bg);
   border-color: #d7d7d7;
 }
 
@@ -352,4 +388,42 @@ body {
 @keyframes floaty {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-4px); }
+}
+
+/* Dark and light more logic */
+
+/* ===== Dark mode polish ===== */
+body.dark .tile {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+}
+
+body.dark .tile:hover {
+  background: #222;
+}
+
+body.dark .chat .bubble {
+  background: #1e1e1e;
+}
+
+body.dark .chat .message.user .bubble {
+  background: #2a2a2a;
+}
+
+body.dark .input-area {
+  background: #111;
+  border-top: 1px solid var(--border-color);
+}
+
+body.dark input {
+  background: #1a1a1a;
+}
+
+body.dark button {
+  background: #222;
+  color: var(--text-color);
+}
+
+body.dark button:hover {
+  background: #2d2d2d;
 }
