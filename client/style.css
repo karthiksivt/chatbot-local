@@ -312,3 +312,44 @@ body {
     width: 240px;
   }
 }
+
+/* Here is the new code SVG animation after adding code in index 29th line */
+
+/* ===== SVG line draw animation ===== */
+.draw-anim path,
+.draw-anim rect,
+.draw-anim circle {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: draw-line 1.6s ease forwards;
+}
+
+/* Stagger effect so lines draw one after another */
+.draw-anim path:nth-of-type(1) { animation-delay: 0s; }
+.draw-anim path:nth-of-type(2) { animation-delay: 0.15s; }
+.draw-anim path:nth-of-type(3) { animation-delay: 0.3s; }
+.draw-anim path:nth-of-type(4) { animation-delay: 0.45s; }
+.draw-anim path:nth-of-type(5) { animation-delay: 0.6s; }
+.draw-anim path:nth-of-type(6) { animation-delay: 0.75s; }
+.draw-anim path:nth-of-type(7) { animation-delay: 0.9s; }
+.draw-anim path:nth-of-type(8) { animation-delay: 1.05s; }
+
+.draw-anim rect { animation-delay: 0.2s; }
+.draw-anim circle { animation-delay: 0.4s; }
+
+@keyframes draw-line {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Optional subtle floating after draw */
+.draw-anim {
+  animation: floaty 6s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
