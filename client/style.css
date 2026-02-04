@@ -10,127 +10,149 @@ html,body{
 }
 
 /* Basic reset */
-* {
-  box-sizing: border-box;
+/* ========== Base reset ========== */
+* { box-sizing: border-box; }
+
+:root{
+  --bg: #f7f7f8;
+  --card: #ffffff;
+  --text: #111;
+  --muted: #666;
+  --border: #e7e7ea;
+  --shadow: 0 6px 18px rgba(0,0,0,0.06);
+  --radius: 16px;
 }
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f7f7f8;
-  color: #111;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
 }
 
-/* Main container */
+/* ========== Layout ========== */
 .app {
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 28px 18px 34px;
 }
 
-/* Header */
+/* ========== Header ========== */
+.header {
+  margin-bottom: 14px;
+}
+
 .header h1 {
   margin: 0;
-  font-size: 28px;
+  font-size: 30px;
+  letter-spacing: -0.4px;
 }
 
 .header p {
-  margin: 6px 0 0;
-  color: #555;
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 14px;
 }
 
-/* FAQ section */
+/* ========== FAQ card ========== */
 .faq {
-  margin-top: 18px;
+  margin-top: 16px;
   padding: 16px;
-  background: #fff;
-  border: 1px solid #e6e6e6;
-  border-radius: 12px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
 
 .faq h3 {
   margin: 0 0 12px;
-  font-size: 16px;
+  font-size: 14px;
   color: #333;
 }
 
-/* Tiles */
+/* ========== Tiles ========== */
 .tiles {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
+  gap: 12px;
 }
 
 .tile {
-  padding: 14px 12px;
-  border-radius: 12px;
-  border: 1px solid #e6e6e6;
+  padding: 14px 14px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
   background: #fafafa;
   cursor: pointer;
   font-size: 14px;
   text-align: left;
+  transition: transform 0.08s ease, background 0.15s ease, border-color 0.15s ease;
 }
 
 .tile:hover {
-  background: #f1f1f1;
+  background: #f2f2f4;
+  border-color: #d9d9de;
 }
 
-/* Actions row */
+.tile:active {
+  transform: scale(0.99);
+}
+
+/* ========== Actions row ========== */
 .actions {
   display: flex;
   gap: 10px;
-  margin-top: 12px;
+  margin-top: 14px;
+  flex-wrap: wrap;
   align-items: center;
 }
 
 .download-btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   padding: 10px 12px;
-  border-radius: 10px;
-  border: 1px solid #e6e6e6;
-  background: #fff;
-  color: #111;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
   text-decoration: none;
   font-size: 14px;
+  transition: background 0.15s ease, border-color 0.15s ease;
 }
 
 .download-btn:hover {
-  background: #f3f3f3;
+  background: #f3f3f5;
+  border-color: #d9d9de;
 }
 
 .reset-btn {
   padding: 10px 12px;
-  border-radius: 10px;
-  border: none;
+  border-radius: 12px;
+  border: 1px solid #111;
   background: #111;
   color: #fff;
   cursor: pointer;
   font-size: 14px;
+  transition: opacity 0.15s ease, transform 0.08s ease;
 }
 
-.reset-btn:hover {
-  opacity: 0.9;
-}
+.reset-btn:hover { opacity: 0.92; }
+.reset-btn:active { transform: scale(0.99); }
 
-/* Chat area */
+/* ========== Chat card ========== */
 .chat {
   margin-top: 16px;
-  background: #fff;
-  border: 1px solid #e6e6e6;
-  border-radius: 12px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
   padding: 14px;
-
-  /* Fix excessive height */
-  min-height: 120px;      /* small initial height */
-  max-height: 420px;      /* grows when messages increase */
+  min-height: 120px;
+  max-height: 520px;
   overflow-y: auto;
 }
 
-.message:first-child {
-  margin-top: 0;
-}
-
-/* Messages */
+/* ========== Messages ========== */
 .message {
   display: flex;
   margin: 10px 0;
@@ -141,58 +163,68 @@ body {
 }
 
 .bubble {
-  max-width: 75%;
-  padding: 10px 12px;
-  border-radius: 12px;
-  line-height: 1.35;
+  max-width: 78%;
+  padding: 11px 12px;
+  border-radius: 14px;
+  line-height: 1.45;
   font-size: 14px;
+  white-space: pre-wrap; /* keeps line breaks */
+  word-wrap: break-word;
 }
 
-/* Bot vs User bubble styles */
 .message.bot .bubble {
-  background: #f3f3f3;
-  border: 1px solid #e6e6e6;
-  white-space: pre-wrap;
+  background: #f4f4f6;
+  border: 1px solid var(--border);
+  color: #111;
 }
 
 .message.user .bubble {
   background: #111;
   color: #fff;
+  border: 1px solid #111;
 }
 
-/* Input area */
+/* ========== Input bar ========== */
 .input-area {
   margin-top: 12px;
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 #userInput {
   flex: 1;
-  padding: 12px;
-  border-radius: 12px;
-  border: 1px solid #e6e6e6;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
   outline: none;
   font-size: 14px;
+  background: var(--card);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+#userInput:focus {
+  border-color: #cfcfd6;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.06);
 }
 
 #sendBtn {
-  padding: 12px 14px;
-  border-radius: 12px;
-  border: none;
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: 1px solid #111;
   background: #111;
   color: #fff;
   cursor: pointer;
   font-size: 14px;
+  transition: opacity 0.15s ease, transform 0.08s ease;
 }
 
-#sendBtn:hover {
-  opacity: 0.9;
-}
+#sendBtn:hover { opacity: 0.92; }
+#sendBtn:active { transform: scale(0.99); }
 
-/* Mobile */
+/* ========== Mobile ========== */
 @media (max-width: 600px) {
-  .tiles {
-    grid-template-columns: 1fr;
-  }
+  .tiles { grid-template-columns: 1fr; }
+  .app { padding: 20px 14px 28px; }
+  .header h1 { font-size: 26px; }
 }
