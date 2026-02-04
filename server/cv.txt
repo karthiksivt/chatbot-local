@@ -1,0 +1,106 @@
+Full Name: Talla Siva Karthik
+Preferred Name: Karthik
+
+Personal Profile:
+A customer-focused and results-driven IT professional with a strong interest in Cloud Computing, CRM, and technical solution delivery across diverse industries including Financial Services. Skilled at quickly adapting in fast-paced environments and passionate about helping organisations unlock value through AI, LLMS, automation, data-driven insights, and scalable solutions. Recognised for strong communication and stakeholder engagement, with a track record of building trust and delivering successful outcomes through collaborative problem-solving. Brings a proactive mindset to continuous learning and development, while also mentoring peers and sharing knowledge to uplift team capability. Keen to contribute technical expertise in Automation, AI, LLMs, API integration, cloud platforms, and system observability to support customer success and long-term growth.
+
+
+Summary:
+Technical Support Engineer with 7 Years of experience in SaaS support, APIs, and integrations.
+A customer-focused and results-driven IT professional with experience delivering reliable technical solutions in fast-paced environments.
+Strong interest in Cloud Computing, CRM platforms, and scalable system design across diverse industries, including Financial Services.
+Passionate about leveraging AI, LLMs, and automation to solve real-world business challenges.
+Skilled in translating complex technical concepts into clear, actionable outcomes for stakeholders.
+Experienced in API integrations, system troubleshooting, and end-to-end solution delivery.
+Highly adaptable and effective in dynamic, high-growth environments.
+Recognised for strong communication skills and collaborative problem-solving.
+Proven ability to build trust and maintain positive stakeholder relationships.
+Hands-on experience using data-driven insights to improve operational efficiency.
+Proactive in identifying automation and process optimisation opportunities.
+Committed to continuous learning in cloud platforms and emerging technologies.
+Strong customer-success mindset aligned with long-term business goals.
+Comfortable working cross-functionally with engineering, product, and business teams.
+Actively mentors peers and shares knowledge to uplift overall team capability.
+Driven to contribute technical expertise that supports innovation, growth, and customer success.
+
+
+Work Experience:
+Senior Support Engineer at Narvar.
+Worked from Feb 2022 to Jan 28th 2026
+
+Below are the roles and responsibilities in Narvar:
+
+	•	Implement AI-driven capabilities within Zendesk, including automated first responses, intelligent ticket deflection, and ticket pattern analysis to reduce support load and improve response times.
+	•	Integrated an internal AI tool (Torvalds AI) with Zendesk, Slack, and Confluence to enhance support workflows, knowledge discovery, and documentation accessibility.
+	•	Designed and implemented automated Zendesk ticket routing workflows using n8n, improving ticket categorisation accuracy and reducing manual intervention.
+	•	Analyse support ticket trends and patterns to identify recurring issues, automation opportunities, and areas for product or process improvement.
+	•	Mentor junior engineers, particularly in debugging using SQL, APIs, and scripting, while promoting best practices for incident management, observability, and technical ownership.
+	•	Create and maintain comprehensive technical documentation, including troubleshooting runbooks, monitoring frameworks, AI-assisted workflows, and proactive alerting strategies.
+	•	Build and maintain scripting and automation tools using Python and JavaScript to streamline diagnostics, monitoring, and operational workflows.
+	•	Design, develop, and maintain Snowflake SQL dashboards to support proactive monitoring, performance optimisation, and data-driven decision-making.
+	•	Maintain high ticket productivity while ensuring SLA compliance, actively managing incidents and service requests using ITIL-aligned processes and internal tooling.
+	•	Act as a strong customer advocate internally, partnering with Product and Engineering teams to influence product enhancements aligned with customer needs and evolving environments.
+	•	Perform regular operational and technical reviews, delivering tailored recommendations and supporting change management to help customers reduce risk and improve outcomes.
+	•	Coordinate cross-functionally with Sales, Implementation, Engineering, Product, and Support teams to drive timely resolution of complex technical issues and continuous service improvement.
+	•	Lead technical workshops, enablement sessions, and knowledge-sharing initiatives for customers and internal teams to support smooth adoption and effective use of solutions.
+	•	Conduct thorough root cause analysis (RCA) for recurring and complex issues, implementing preventative measures to improve system reliability and minimise customer impact.
+	•	Leverage GCP logs, diagnostic tooling, and observability platforms such as Splunk to perform deep troubleshooting, trend analysis, and anomaly detection across distributed systems.
+	•	Deliver proactive services focused on improving IT operational health, strengthening observability, reducing incident frequency, and maintaining high customer satisfaction.
+	•	Serve as the primary technical point of contact for assigned EMEA accounts, owning the end-to-end technical relationship and acting as the escalation lead for high-severity and business-critical issues.
+    .   Troubleshooting data integration issues with server-to-server web services in SOAP, REST-based API's (JSON and XML) and using Splunk and API's to carry out investigative testing in Postman API development tool.
+
+
+
+- Support Engineer at Digiee IT Networks from Oct 2020 to Feb 2022.
+Below are the roles and responsibilities in Digiee IT Networks:
+
+	•	Collaborated closely with Product Managers and UX teams to ensure smooth deployment, stability, and performance of new product features.
+	•	Monitored and supported web applications built using Python, Django, Flask, and JavaScript, ensuring high availability and a seamless user experience.
+	•	Acted as a primary responder to customer-reported issues, performing detailed root cause analysis and coordinating with Engineering teams for timely and effective resolution.
+	•	Proactively contributed to system reliability and scalability improvements through feedback loops, automation initiatives, and process enhancements.
+	•	Supported continuous integration and deployment workflows to maintain release quality and minimise production issues.
+	•	Identified performance bottlenecks and optimisation opportunities across application and infrastructure layers.
+	•	Worked cross-functionally with Engineering, Product, and Design teams to align technical outcomes with business goals.
+
+
+- Support Engineer at Diebold Nixdorf( Banking applications) from Oct 2019 to Oct 2020.
+
+Below are the roles and responsibilities in Diebold Nixdorf:
+
+	•	Tracked, documented, and maintained software and network system functionality across internal and external environments, ensuring system stability and operational continuity.
+	•	Identified opportunities to improve engineering productivity through better documentation, process improvements, and tooling enhancements.
+	•	Executed server-side scripts to analyse application and system logs, supporting issue diagnosis and performance troubleshooting.
+	•	Investigated and resolved basic front-end bugs, providing clear code snippets and fixes to improve UI functionality and user experience.
+	•	Analysed network and system metrics, including network usage patterns, disk space availability, and overall server health.
+	•	Supported proactive monitoring and maintenance efforts to prevent incidents and ensure reliable system performance.
+	•	Collaborated with engineering teams to communicate findings, recommend improvements, and assist with issue resolution.
+
+Key Skills
+
+
+Technical Skills
+Software Packages: SQL Management Studio, Splunk, Postman API Tool, Elastic, Tableau, ServiceNow, Android Studio, Zendesk,  ServiceNow , Eclipse Development, G-Suite, Technical Skills: SQL (Intermediate), Splunk (Intermediate), Elastic Search (Intermediate), API (REST & SOAP) (Intermediate), Linux/Unix HTML, CSS (Intermediate), JavaScript (Intermediate), XML (Intermediate), VBA (Basic), Java (Basic), R Programming (Basic), SAP Sybase (Basic), Shell Scripting (Basic), Python (Intermediate), Understanding of WDesk (Chains and journeys), Webhooks, AWS, GCP, Application Support, Product Support
+Flask (Intermediate), Root Cause Analysis, Issue Resolution, Monitoring, Continuous Integration, Performance Optimisation, Cross-functional Collaboration, APIs (REST, JSON), Node.js(Intermediate), Git(Intermediate) and GitHub(Intermediate), Technical Support, n8n (Intermediate), Datadog ( Basic) , Retool (Basic), Docker( Basic), Kubernetes( Basic ), GitHub Actions ( Basic)
+
+Achievements:
+	•	Implemented AI-powered workflows in Zendesk to deliver intelligent first responses, significantly improving initial response time and customer experience.
+	•	Designed and deployed region-based automated ticket routing, ensuring faster assignment to available engineers and improving SLA adherence across global support teams.
+	•	Acted as a consistent technical point of contact for enterprise and churn-risk retailers, building trust through regular interactions and proactive issue management.
+	•	Reduced overall ticket resolution and closure times by enabling self-serve support through automated responses enriched with relevant documentation and knowledge base links.
+	•	Improved ticket deflection rates by analysing recurring ticket patterns and integrating AI-driven recommendations into support workflows.
+	•	Strengthened customer retention by proactively identifying risk signals and collaborating with internal teams to address issues before escalation.
+	•	Enhanced operational efficiency by minimising manual triage and repetitive support tasks through automation and workflow optimisation.
+    •	Automated the data deletion process, reducing manual effort, minimising errors, and ensuring faster and more reliable compliance with customer and regulatory requests.
+    •	Increased operational efficiency by eliminating repetitive manual tasks through targeted automation and workflow optimisation.
+
+
+Work shifts and availability:
+I stay at hyderabad( India)
+available for remote work in any timezone.
+Comfortable to work in weekend shifts
+available for relocation.
+
+
+
+
+
