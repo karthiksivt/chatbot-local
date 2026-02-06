@@ -1,28 +1,6 @@
 // Dark or Light Logic
 
-// ===== Dark Mode Toggle =====
-const themeToggle = document.getElementById("themeToggle");
-const themeIcon = document.getElementById("themeIcon");
-const themeText = document.getElementById("themeText");
 
-// Load saved theme on page load
-const savedTheme = localStorage.getItem("theme");
-if (savedTheme === "dark") {
-  document.body.classList.add("dark");
-  themeIcon.textContent = "☀️";
-  themeText.textContent = "Light";
-}
-
-// Toggle theme on click
-themeToggle.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
-
-  const isDark = document.body.classList.contains("dark");
-  localStorage.setItem("theme", isDark ? "dark" : "light");
-
-  themeIcon.textContent = isDark ? "☀️" : "🌙";
-  themeText.textContent = isDark ? "Light" : "Dark";
-});
 
 
 
