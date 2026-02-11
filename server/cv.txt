@@ -100,7 +100,89 @@ available for remote work in any timezone.
 Comfortable to work in weekend shifts
 available for relocation.
 
-
+Mobile: +91 6305731657
+Website: https://karthiksiva-cv.netlify.app/index.html
+Email: Karthiksivt@gmail.com
+Professional Summary:
+Senior Technical Support Engineer with 7 years of experience owning complex L2/L3
+production issues for enterprise SaaS support operations and eCommerce platforms.
+Known for reducing resolution time and improving incident quality through AI-assisted
+triage, thorough investigation, and strong escalation ownership. Regularly trusted by
+enterprise customers to lead critical calls, technical deep-dives, and mitigation planning,
+while working closely with Engineering, DevOps, and Product teams to prevent repeat
+issues, reduce churn risk, and improve long-term platform reliability.
+Technical Stack:
+AI-assisted support tooling, LLM-powered ticket triage, first-response automation,
+workflow automation (n8n), event-driven automation, AWS, Google Cloud Platform (GCP),
+cloud logging, DataDog, log-based observability, API logs, Snowflake, Zendesk, REST
+APIs, webhook, SDK integrations, SQL analytics, Python, Flask applications, JavaScript
+services, DevOps collaboration, Jira, ITIL-based incident management, enterprise SaaS
+platforms, eCommerce systems, high-availability production environments.
+Technical Skills:
+Incident triage (AI-assisted), first-response automation, workflow automation (n8n), L2/L3
+incident management, production troubleshooting, root cause analysis (RCA), log
+investigation, cloud observability (DataDog, GCP Logging), API debugging, REST
+integrations, webhook validation, SDK integration support, SQL querying (Snowflake),
+data validation, Python scripting and automation, escalation management, runbooks and
+troubleshooting documentation, post-incident reviews, proactive monitoring, enterprise
+customer support, technical demos and customer walkthroughs, churn risk mitigation,
+cross-functional collaboration (Engineering, DevOps, Product), HTML, CSS, JavaScript
+troubleshooting.
+Certifications:
+Microsoft: Introduction to Programming Using Python
+Achievements:
+• Implemented AI automation in support workflows.
+• Consolidated global knowledge base reducing engineering load.
+• Automated Data Compliance (PII) through Zendesk API.
+Experience:
+Narvar
+Senior Technical Support Engineer: ( Feb 2022 - Jan 2026 )
+• Served as L2/L3 technical owner and primary technical lead for global enterprise
+eCommerce customers, supporting high-traﬃc post-purchase and returns
+platforms under strict SLA, uptime, and CSAT expectations.
+• Led the implementation and adoption of AI-assisted first-response workflows
+(Torvalds AI), improving ticket triage accuracy, reducing initial response time, and
+accelerating overall resolution for complex incidents.
+• Acted as a technical escalation point and senior decision-maker, guiding junior
+engineers during active incidents and driving issues to resolution without
+unnecessary engineering escalations.
+• Designed and standardised structured ticket documentation and investigation
+summaries, ensuring every case clearly captured context, root cause, remediation
+steps, and follow-up actions, Significantly improving knowledge reuse and cross-
+team handoﬀs.
+• Performed advanced production troubleshooting using GCP Cloud Logging,
+DataDog, Snowflake, API logs, and SQL analysis to identify performance
+bottlenecks, data mismatches, and integration failures.
+• Owned and resolved complex REST API, webhook, and Shopify Plus integration
+issues, collaborating directly with Engineering and DevOps teams through Jira to
+drive permanent fixes.
+• Led enterprise customer calls, technical deep-dives, and product demos,
+translating complex system behaviour into clear business impact and mitigation
+strategies to reduce churn risk.
+• Proactively identified recurring production issues through log analysis and root
+cause analysis (RCA), influencing long-term platform stability and reliability
+improvements.
+• Supported and monitored production services built with Python and JavaScript,
+ensuring availability, scalability, and operational resilience.
+• Partnered closely with Product, Customer Success, and Engineering teams to
+assess technical risk, influence roadmap prioritizations, and retain high-value
+enterprise customers.
+• Improved incident response playbook, alerting strategies, and monitoring visibility,
+contributing to overall operational excellence and reduced repeat incidents.
+DIGEE IT NETWORKS
+Technical Support Engineer: ( Oct 2020 - Feb 2022 )
+• Monitored and supported web applications built with Python, Flask, and JavaScript,
+ensuring high availability.
+• Handled customer-reported issues, performed root cause analysis and coordinated
+with engineering for timely resolutions.
+• Collaborated with product managers and UX teams to ensure smooth deployment and
+performance of new product features.
+Diebold Nixdorf
+Technical Support Engineer: ( Oct 2019 - Oct 2020 )
+Tech Mahindra
+Technical Support: ( Oct 2017 - Oct 2019 )
+Education
+Bachelor Of Engineering - B Tech Computer Science
 
 
 
