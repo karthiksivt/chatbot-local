@@ -97,7 +97,7 @@ Keep answers short, clear, and structured with bullet points if helpful.
         { role: "system", content: systemInstruction },
         { role: "user", content: `CV TEXT:\n${cvText}\n\nQUESTION:\n${message}` },
       ],
-      max_output_tokens: 350, // cost control
+      max_output_tokens: 650, // cost control
     });
 
     // Send response back to frontend
